@@ -509,7 +509,7 @@ function addToPlaylist(id, first){
 	//get variables for new img
 	var imgid = id + "1";
 	var imgrealid = imgid.substring(0,imgid.lastIndexOf("_"));
-	var imgsrc = "http://i.ytimg.com/vi/" + imgrealid + "/1.jpg";
+	var imgsrc = "https://i.ytimg.com/vi/" + imgrealid + "/1.jpg";
 	var imgwidth = "75px";
 	var imgmouseout = new Function('mouseOutImage(this,"thumbnail");');
 	var imgmouseover = new Function('mousOverImage(this,"'+imgrealid+'",2);');

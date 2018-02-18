@@ -1,0 +1,75 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+
+#page-wrap { width: 800px; margin: 20px auto; }
+
+
+.rounded { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.6); -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.6); }
+
+.widget { 
+	width: 300px; 
+	padding: 20px;
+    margin: 0 20px 20px 0; 
+	float: left; 
+	position: relative; 
+	background-size: 75px 56.25px;
+	-moz-background-size: 75px 56.25px;
+}
+		  
+.newwidget { width: 495px; padding: 0px;
+    margin: 0 0px 0px 0; float: left; position: relative; background-size: 75px 56.25px;
+	-moz-background-size: 75px 56.25px;
+	cursor:move;
+}
+		  
+.thumbwidget { 
+	float: left;
+	width: 77px; 
+	padding: 0px;
+    margin: 0 0px 0px 0; 
+	position: relative; 
+	background-size: 75px 56.25px;
+	-moz-background-size: 75px 56.25px;
+}
+          
+.overlay { 
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    text-align: center; 
+	cursor:move;
+}
+           
+.widget-button-play { 
+	margin-right : -8px;
+	position : relative;
+	clear : left;
+    padding: 4px 12px; 
+	background: black; 
+	border: 1px solid white; 
+	color: white; 
+	text-decoration: none; 
+	font-size : 11px; 
+    text-transform: uppercase; 
+	
+}
+
+.widget-button-delete { 
+	margin-right : -4px;
+	margin-top : -3px;
+	float : right;
+    padding: 1px 3px; 
+	background: black; 
+	border: 1px solid white; 
+	color: white; 
+	text-decoration: none; 
+	font-size : 9px; 
+    text-transform: uppercase; 
+	
+}
+
+.widget-button-play:hover { color: #fe4902; }
+.widget-button-delete:hover { color: #fe4902; }

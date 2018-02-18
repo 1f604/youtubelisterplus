@@ -1,0 +1,568 @@
+body{
+	background-color: #000000; /*98dcd;*/
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font: 12px arial;
+}
+
+#bodydiv {
+	width : 980px;
+	height : 805px;	
+	margin-left : auto;
+ 	margin-right : auto;
+	padding-left: 50px;
+}
+
+#footer{
+	width : 980px;
+	height : 25px;
+	text-align:center;
+	padding-top: 10px;
+	clear : left;
+	background-color : #ffffff; /*fbfd52;*/
+/*	border: 2px solid black;*/
+	margin-top : 80px;
+}
+
+#foottext{
+	text-align : center;
+	margin-left : 15px;
+	margin-top : 2px;
+	padding-top : 2px;
+}
+
+
+#header{
+	background-color : #ffffff; /*fda452;*/
+	width : 980px;
+	height : 50px;
+/*	border: 2px solid black;*/
+	margin-top : 2px;
+	margin-bottom : 10px;
+}
+
+#headersearchstuff{
+	width : 340px;
+	height : 100%;
+}
+
+#headervideotitle{
+	text-align : center;
+	color : black;
+	float : right;
+	margin-top : -48px;
+	margin-right : 25px;
+	width : 475px;
+	padding-top: 9px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#searchboxdiv{
+	width : 310px;
+	height : 20px;
+	float : left;
+}
+
+#searchoptions{
+	height : 15px;
+	width : 400px;
+	text-align : center;
+	font-size : 12px;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	margin-left : 20px;
+}
+
+#searchlisthr{
+	position: relative;
+}
+
+#playlisthr{
+	position: relative;
+}
+
+.sortLink{
+	font-size : 14px;
+	margin-right : 10px;
+}
+
+.sortLinkNow{
+	font-size : 15px;
+	font-weight : bold;
+	margin-right : 10px;
+}
+
+#leftside{
+/*	border: 2px solid black;*/
+	background-color : #ffffff; /*E0E0E0;*/
+	width : 448px;
+	height : 695px;
+	float : left;
+	text-align : left;
+	margin-right : 10px;
+	margin-bottom : 10px;
+}
+
+
+#suggests {
+	position: absolute;
+	background: black;
+	color: white;
+	border: 1px solid white;
+}
+#suggests ul {
+	list-style-type: none;
+}
+#suggests li {
+	list-style-type: none;
+	padding: 5px;
+}
+#suggests li:hover {
+	cursor: pointer;
+	background: white;
+	color: black;
+}
+
+
+#youtubesearch{
+	color : black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height : 640px;
+	margin-left : 0px;
+}
+
+#shuffleform {
+	float : right;
+}
+
+#rightside{
+	width : 518px;
+	height : 695px;
+	float : right;
+}
+
+#videoplayer{
+/*	border: 2px solid black;*/
+	background-color : #ffffff; /*3aa74b;*/
+	height : 335px;
+	width : 518px;
+}
+
+#embeded{
+	padding-top : 11px; 
+	padding-left : 19px;
+	height : 314;
+	width : 479;
+}
+
+#playliststuff{
+/*	border: 2px solid black;*/
+	background-color : #ffffff; /*1177ef;*/
+	margin-top : 10px;
+	height : 345px;
+}
+
+#playlistheader{
+	height : 25px;
+	width : 500px;
+	text-align : center;
+	font-size : 12px;
+	margin-left : 5px;
+	padding-top : 10px;
+	margin-bottom : 5px;
+}
+
+#playlist{
+	height : 285px;
+	overflow-y : scroll;
+	position: relative;
+}
+
+#playlistdetail{
+	position: absolute;
+}
+
+.playlistlinks{
+	font-size : 13px;
+	color : black;
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+.playlistlinksNow{
+	font-size : 14px;
+	color : black;
+	font-weight : bold;
+	margin-left : 5px;
+	margin-right : 5px;
+}	
+
+.addIcon {
+	float : left;
+	clear : left;
+	cursor:pointer;
+}
+
+.removeIcon {
+	float : left;
+	clear : left;
+	cursor:pointer;
+}
+
+.playIcon {
+	float : left;
+	clear : left;
+	cursor:pointer;
+}
+
+.nextIcon{
+	cursor:pointer;
+}
+
+.searchlistgraphics {
+	width : 125px;
+	float : left;
+	clear : left;
+	margin-bottom : 30px;
+	margin-left : 10px;
+}
+
+.searchlistgraphicsplaylist {
+	width : 110px;
+	height : 65px;
+	margin-top : 3px;
+	float : left;
+	clear : left;
+	margin-left : 10px;
+}
+
+.searchlistbuttons {
+	float : left;
+	clear : left;
+	width : 30px;
+}
+
+.searchlistimg {
+	margin-top : 5px;
+	float : right;
+	clear : none;
+}
+
+.searchlistimgplaylist {
+	margin-top : 0px;
+	float : right;
+	clear : none;
+}
+
+.searchlisttext {
+	margin-top : 5px;
+	margin-right : 5px;
+	color : black;
+	width : 285px;
+	float : right;
+	font-size : 12px;
+}
+
+.searchlisttextplaylist {
+	height : 65px;
+	width : 370px;
+	margin-top : 3px;
+	color : black;
+	float : right;
+	font-size : 12px;
+}
+
+#playlistthumb{
+	margin-left : 30px;
+	position: absolute;
+}
+
+#searchwrapper {
+	width:310px;
+	height:40px;
+	background-image:url(/images/searchbar.gif);
+	background-repeat:no-repeat;
+	padding:0px;
+	margin: 3px auto;
+	position:relative;
+}
+ 
+#searchwrapper form { 
+	display:inline ; 
+}
+ 
+.searchbox {
+	color : white;
+	border:0px;
+	background-color:transparent;
+	position:absolute;
+	margin-top : 7px;
+	margin-left:9px;
+	width:258px;
+	height:28px;
+}
+ 
+.searchbox_submit {
+	border:0px;
+	background-color:transparent;
+	position:absolute;
+	top:4px;
+	left:265px;
+	width:32px;
+	height:28px;
+}
+
+#bottoms{
+	margin-top: 100px;
+}
+
+.divblock{
+	margin-top : 1px;
+	margin-bottom : 1px;
+	clear : left;
+	clear : right;
+	height : 3px;
+	width : 100%;
+}
+
+.desdiv{
+	display : none;
+}
+
+.desdivmore{
+	display : inline;
+}
+
+.newp{
+	margin-top : 75px;
+	margin-bottom : 50px;
+	clear : left;
+	float : left;
+}
+
+/*-----------------------Styles for Save/Load Popups--------------------- */
+#tabheader{
+	margin-left : 25px;
+	width : 139px;
+	margin-bottom : 12px;
+}
+
+#savetabbutton{
+	padding-top : 6px;
+	text-align : center;
+	float : left;
+	width : 65px;
+	height : 28px;
+	background-color : #CC3300;
+	border-left : solid 1px black;
+	border-right : solid 1px black;
+	border-top : solid 1px black;
+}
+
+#updatetabbutton{
+	padding-top : 6px;
+	text-align : center;
+	float : right;
+	width : 65px;
+	height : 25px;
+	background-color : #336699;
+	border-right : solid 1px black;
+	border-top : solid 1px black;
+	border-left : solid 1px black;
+}
+
+#saveplaylistdiv{
+	width: 625px;
+	height: 350px;
+	background-color: #CC3300;
+	text-align : center;
+	border : solid 1px black;
+}
+
+#saveplaylistheader{
+	width: 600px;
+	height: 25px;
+}
+
+#saveplaylistbody{
+	width: 600px;
+	height: 300px;
+}
+
+#saveplaylistfooter{
+	text-align : center;
+	width: 600px;
+	height: 30px;
+}
+
+#savetextarea{
+	resize: none;
+}
+
+#updateplaylistbody.td{
+	margin-left: 10px;
+	padding-top: 10px;
+	
+}
+
+#updateplaylistdiv{
+	width: 325px;
+	height: 250px;
+	background-color : #336699;
+	border : solid 1px black;
+}
+
+#updateplaylistheader{
+	padding : 10px;
+	width: 200px;
+	height: 25px;
+}
+
+#updateplaylistbody{
+	width: 300px;
+	height: 100px;
+}
+
+#updateplaylistfooter{
+	text-align : center;
+	width: 300px;
+	height: 25px;
+}
+
+#savebigdiv{
+	position : absolute;
+	z-index : 2;
+	width : 100%;
+	height : 850px;
+	background-color : black;
+	opacity: .7;
+}
+
+#savebody{
+	position : absolute;
+	left : 50%;
+	margin-left : -300px;
+	margin-top : 0px;
+	z-index : 3;
+	opacity: 100%;
+}
+
+#loadbody{
+	position : absolute;
+	left : 50%;
+	margin-left : -155px;
+	margin-top : 100px;
+	z-index : 4;
+	opacity: 100%;
+	background-color: #009900;
+	width: 325px;
+	text-align : center;
+}
+
+#loadplaylistdiv{
+	width: 300px;
+	height: 100px;
+}
+
+#loadplaylistheader{
+	width: 300px;
+	height: 25px;
+	
+}
+
+#loadplaylistbody{
+	text-align : center;
+	width: 300px;
+	height: 50px;
+}
+
+#loadplaylistfooter{
+	text-align : center;
+	width: 300px;
+	height: 25px;
+}
+#loadbody, #savebody{
+  top:50px;
+  position:fixed;
+}
+#savebigdiv{
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+/*div{
+  -webkit-transition-duration: 1s, 2s;
+  -moz-transition-duration: 1s, 2s;
+  }*/
+@media all and (max-width: 515px){
+  #savebody{
+    width:100%;
+    left:0px;
+    margin-left:0px;
+  }
+  #saveplaylistdiv{
+    width:100%;
+    margin-left:0px;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #bodydiv{
+    width: 100%;
+  }
+  #header{
+    width: 100%;
+    height : 80px;
+    margin-top : 40px;
+  }
+  #leftside{
+    height : 395px;
+    width : 100%;
+  }
+  #youtubesearch{
+    height : 345px;
+  }
+  #rightside{
+    clear : left;
+    float : left;
+    width : 100%;
+    height : 660px;
+    margin-top : 15px;
+  }
+  #footer{
+    width : 100%;
+  }
+  #embeded{
+    margin-left : auto;
+    margin-right : auto;
+    padding-left : 0px;
+  }
+  #videoplayer{
+    width : 100%;
+  }
+  .searchlisttextplaylist{
+    width : 70%;
+  }
+  #headervideotitle{
+    margin-top : -30px;
+  }
+  #playlistheader{
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    margin-left:0px;
+    border-radius:6px;
+  }
+  #playliststuff{
+    height : 300px;
+  }
+}
